@@ -1,6 +1,6 @@
 Repositório de Exercícios de Lógica de Programação
 
-Este repositório contém exercícios desenvolvidos em Java com o objetivo de praticar e aprimorar a lógica de programação.
+Este repositório contém exercícios desenvolvidos em C# com o objetivo de praticar e aprimorar a lógica de programação.
 
 Objetivo
 
