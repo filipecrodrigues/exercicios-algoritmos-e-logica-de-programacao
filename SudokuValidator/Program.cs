@@ -72,13 +72,19 @@ namespace SudokuValidator
             return true;
         }
 
-        public static void Main()
-        {
-            Console.WriteLine("Digite os 81 números do Sudoku (sem espaços):");
-            string entrada = Console.ReadLine();
+       public static void Main()
+{
+    Console.WriteLine("Digite os 81 números do Sudoku (sem espaços):");
+    string entrada = Console.ReadLine() ?? string.Empty;
 
-            string resultado = Validar(entrada);
-            Console.WriteLine(resultado);
-        }
+    if (entrada.Length != 81)
+    {
+        Console.WriteLine("Entrada inválida! Digite exatamente 81 números.");
+        return;
+    }
+
+    string resultado = Validar(entrada);
+    Console.WriteLine(resultado);
+}
     }
 }
